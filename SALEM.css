@@ -1,0 +1,85 @@
+<!--School of wisdom -->
+body{
+    background-color:moccasin;
+}
+h1{
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 5px ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:xx-large;
+    line-height: 60px;
+    margin: 5 auto;
+    padding: 10px;
+    border: 2px rgb(25, 25, 184) solid;
+    border-radius: 30px ;
+    margin-left: 300px;
+    transition: 1s box-shadow;
+    box-shadow: 10px 10px 10px rgb(27, 30, 216);
+    background: linear-gradient( to right, red, blue);
+    background-clip:text;
+    color: transparent;
+}
+.nav{
+    background-color:black;
+    line-height: 20px;
+    border: 2px red solid;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 7px;
+    padding:5px;
+}
+.nav .nav-list{
+    display: flex;
+    justify-content: space-around;
+}
+.nav .nav-list a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:orangered;
+    cursor:cell;
+}
+.one{
+    display: inline;
+    width: 450px;
+    height: 50px;
+}
+.first{
+    background-color: rgb(25, 25, 184);
+    display: inline-block;
+    width: 450px;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 5px ;
+}
+img{
+    height: 300px;
+    width:450px;
+    display: inline-block;
+    border: 4px solid blueviolet;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px blue;
+    margin-right: 10px;
+    transition: 0.5s width;
+}
+img:hover{
+    width:500px;
+}
+article{
+    width: 500px;
+    display: ;
+    float:right;
+}
+section{
+    display: ;
+}
+.two{
+    display: block;
+}
+.second{
+    display: inline-block;
+}
+
+<!--get admitted -- >
