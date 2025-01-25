@@ -1,0 +1,22 @@
+<!--get admitted -- >
+body{
+    background-color:tomato ;
+}
+.home{
+    width: 30px;
+}
+.AdmForm{
+    background-color:aqua;
+    border: none;
+    border-radius: 30px;
+    margin:auto;
+    width: 40%;
+}
+.q{
+    padding:20px ;
+    font-weight: 600px;
+}
+.p{
+    margin: 10px;
+    place-content: jaza hapa;
+}
