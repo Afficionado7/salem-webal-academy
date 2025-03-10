@@ -1,0 +1,384 @@
+body{
+    margin:0px;
+}
+.home{
+    position: sticky;
+    position: absolute;
+    width: 12%;
+    top: 1%;
+}
+.headbox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20PX;
+    z-index: 1;
+    position:static ;
+}
+.head{
+    width: 40%;
+    margin: auto;
+    letter-spacing: 5px ;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    padding: 8px;
+    border: 1px rgb(25, 25, 184) solid;
+    border-radius: 30px ;
+    box-shadow: 10px 10px 10px rgb(27, 30, 216);
+    background: linear-gradient( to right, red, blue);
+    background-clip:text;
+    color: transparent;
+    z-index: 1;
+}
+.menu{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    position: sticky;
+    top:5px;
+    z-index: 1;
+}
+.nav{
+    margin:auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    line-height: 20px;
+    border: 1px red solid;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 7px;
+    padding:25px;
+    box-shadow: 4px 4px 8px red; 
+    position: relative;
+    z-index: 1;
+}
+.navi{
+    height:20px;
+    width: 20px;
+    background-color:white;
+    border: none;
+    border-radius: 30%;
+    transition: 0.7s;
+}
+.nav .nav-list{
+    display: flex;
+    justify-content: space-around;
+    width:75%;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
+.nav .nav-list .sec{
+   border-right: solid 2px red;
+   padding-left: 12px;
+   padding-right: 12px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+.nav .nav-list a{
+    color: white;
+    text-decoration: none;
+}
+.nav .nav-list a:hover{
+    color:orangered;
+    cursor:cell;
+}
+.opt{
+    width:8%;
+    z-index: 1;
+}
+
+.opt .help{
+    position:relative;
+    margin-right: auto ;
+    height: 50px;
+    width: 50px;
+}
+.opt .help span{
+    width:70%;
+    height: 5px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    background-color: red;
+    border-radius: 25px;
+}
+ .help span:nth-child(1){
+    top:25%;
+}
+.help span:nth-child(3){
+    top:75%;
+}
+ .helps{
+    position: fixed;
+    top:30%;
+    height: 60%;
+    width: 25%;
+    left:-450px;
+    display:grid;
+    align-items: center;
+    text-align: center;
+    padding: 20x;
+    background-color:rgb(248, 5, 5);
+    box-shadow: 0 o 10px 5px blue;
+    border: none;
+    border-radius: 25px;
+    z-index: 2;
+    transition: left 1s ease-in-out, transform ease-in-out 1s ;
+}
+.helps a{
+    text-decoration: none;
+    font-weight: 800;
+}
+.helps.active{
+    left:2%;
+    transform: rotate(360deg);
+}
+.one{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 75px;
+    z-index: -1;
+}
+.first{
+    padding: 12px;
+    border-right: 1px black solid;
+    border-left : 1px black solid;
+    
+}
+.display1{
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    margin-right: 40px;
+    transition: transform 0.7s;
+}
+.display1:hover{
+    transform:scale(0.97);
+}
+.two{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 75px;
+    z-index: -1;
+}
+.second{
+    padding: 12px;
+    border-top: 1px black solid;
+    border-bottom : 1px black solid;
+    display: flex;
+}
+.display2{
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    margin-left: 40px;
+    transition: transform 0.7s;
+}
+
+.display2:hover{
+    transform:scale(0.97);
+}
+.brief{
+    font-weight: 700;
+    padding:8px;
+    text-align: center;
+}
+.rep{
+    display: block;
+    height: 36%;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(189, 19, 19);
+    color: wheat;
+    margin-bottom: 50px;
+}
+.rep h2{
+    margin: auto;
+    text-align: center;
+    line-height: 95px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+    font-size:70px;
+    font-weight: 900;
+    text-decoration: underline;
+    text-underline-offset:30px;
+    padding: 60px;
+}
+.rep p{
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+.rev{
+    display: flex;
+    justify-content: space-around;
+    gap:0px ;
+    width: 85vw;
+    margin:auto;
+    border: blue 2px solid;
+    border-radius: 16px;
+    height: 60vh;
+    overflow-y: hidden;
+    padding:12px;
+}
+.rev1, .rev3{
+    width:30%;
+    text-align: center;
+}
+.rev2{
+    width: 50%;
+    max-height: 100%;
+    overflow-y: scroll;
+    border-radius: 60px;
+}
+.rev2::-webkit-scrollbar {
+    display: none;
+}
+.rev2 img{
+    width: 100%;
+}
+.market{
+    width: 100%;
+    display: block;
+    height: 350px;
+    background-image: url('C:/Users/ARTHUR/OneDrive/Desktop/Projects/Salem Webal Academy/files/Gallery of Benfeld Aristide Briand Primary School _ Lionel Debs Architectures  - 12.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 300px;
+}
+ .marketing{
+    position: absolute;
+    height: 250px;
+    top: 90%;
+    right: 15%;
+    width: 25%;
+    border: none ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px black;
+    padding:20px;
+    overflow: scroll;
+}
+.marketing h3{
+    text-align: center;
+}
+.marketing::-webkit-scrollbar {
+    display: none;
+}
+.marketing .ula .ule li{
+    list-style-type: circle;
+}
+.market .ule{
+    position: absolute;
+    display: block;
+    top: 155%;
+    right:41%;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px black;
+    z-index: 2;
+    padding:30px;
+    background-color: white;
+}
+.ule h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    font-weight: 600;
+    padding: 60px;
+    background-color:rgb(4, 4, 99);
+    color: moccasin;
+    gap:2%;
+}
+.footer a{
+    text-decoration:dashed;
+    color:tomato;
+}
+.comms{
+    width: 30%;
+}
+.footer .view{
+    width: 30%;
+}
+
+.discover{
+    width: 30%;
+    display: block;
+}
+.discover .list{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 80%;
+}
+.img{
+    width: 16px;
+    height: 16px;
+}
+.icon{
+    padding: 40px;
+}
+.icon:hover{
+    transform: scale(1.3);
+}
+.icons{
+    width:25%;
+    border-right: 3px solid red;
+    transition: transform 0.8s ;
+    padding: 10px;
+}
+.icons:hover{
+    transform: scale(1.3);
+}
+
+.wa{
+    position: sticky;
+    bottom: 10%;
+    right: 5%;
+    height: 50px;
+    width:50px;
+    float: right;
+}
+.wa img{
+    height: 100%;
+    width:100%;
+}
+
+
+@media (min-width: 475px) {
+
+}
+
+@media (min-width: 640px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 1280px) {
+    
+}
+
+@media (min-width: 1536px) {
+    
+}
