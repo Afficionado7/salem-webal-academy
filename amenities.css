@@ -1,0 +1,343 @@
+.home{
+    position: sticky;
+    position: absolute;
+    width: 15%;
+    top: 1px;
+}
+.headbox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20PX;
+    z-index: 1;
+    position:static ;
+    padding: 12px;
+}
+.head{
+    width: 40%;
+    margin: auto;
+    letter-spacing: 5px ;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    padding: 8px;
+    border: 1px rgb(25, 25, 184) solid;
+    border-radius: 30px ;
+    box-shadow: 10px 10px 10px rgb(27, 30, 216);
+    background: linear-gradient( to right, red, blue);
+    background-clip:text;
+    color: transparent;
+    z-index: 1;
+}
+
+.nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    line-height: 20px;
+    border: 1px red solid;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 7px;
+    padding:25px;
+    box-shadow: 4px 4px 8px red; 
+    position: sticky;
+    top:5px;
+    z-index: 1;
+    margin: auto;
+}
+.navi{
+    height:20px;
+    width: 20px;
+    background-color:white;
+    border: none;
+    border-radius: 30%;
+    transition: 0.7s;
+}
+.nav .nav-list{
+    display: flex;
+    justify-content: space-around;
+    width:75%;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
+.nav .nav-list .sec{
+   border-right: solid 3px white;
+   padding-left: 12px;
+   padding-right: 12px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+.nav .nav-list a{
+    color: white;
+    text-decoration: none;
+}
+.nav .nav-list a:hover{
+    color:orangered;
+    cursor:cell;
+}
+.dir1 , .dir2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.dir1 .img1{
+    position:relative;
+    width: 40%;
+    border: none;
+    border-radius: 20%;
+    margin: auto;
+}
+.dir1 p{
+    width: 35%;
+    text-align: center;
+    align-items: center;
+}
+.dir2 .img2{
+    position: relative;
+    width: 48%;
+    border: none;
+    border-radius: 50%;
+    margin: auto;
+}
+.dir2 p{
+    width: 35%;
+    text-align: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow:0px 0px 10px rgb(20, 20, 194),
+                0px 0px 20px rgb(20, 20, 194),
+                0px 0px 40px rgb(20, 20, 194),
+                0px 0px 80px rgb(20, 20, 194);
+    
+}
+.learn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    gap:2px;
+    width: 100%;
+    height: 700px;
+}
+.learn1{
+    background-image: url("C:/Users/ARTHUR/OneDrive/Desktop/Projects/Salem Webal Academy/files/Gallery of Benfeld Aristide Briand Primary School _ Lionel Debs Architectures  - 12.jpeg");
+}
+.learn1 p, .learn2 p, .learn3 p, .learn4  p{
+    position: relative ;
+    bottom: -85%;
+    margin: auto;
+    padding: 14px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.8;
+    border: red solid 2px;
+    color: white;
+    transition: height 0.8s, bottom 0.8s;
+}
+.learn1 p.active, .learn2 p.active, .learn3 p.active, .learn4 p.active {
+    height: 91%;
+    bottom: 0%;
+    align-items: center;
+}
+.learn2{
+    background-image: url("C:/Users/ARTHUR/OneDrive/Desktop/Projects/Salem Webal Academy/files/lab (1).jpeg");
+}
+.learn3{
+    background-image: url("C:/Users/ARTHUR/OneDrive/Desktop/Projects/Salem Webal Academy/files/lab.jpeg");
+}
+.learn4{
+    background-image: url("C:/Users/ARTHUR/OneDrive/Desktop/Projects/Salem Webal Academy/files/lab (2).jpeg");
+}
+.lead{
+    display: grid;
+    width:80%;
+    margin:auto;
+}
+.heads1, .heads2{
+    display: flex;
+    text-align: center;
+}
+.heads1 img, .heads2 img{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    padding:20px;
+}
+.heads1 h3, .heads2 h3{
+    padding:20px;
+    text-align: center;
+    align-items:center;
+}
+.heads1 p, .heads2 p{
+    align-items:center;
+    text-align: center;
+    padding:20px;
+}
+
+@keyframes hodleft{
+    from{
+        transform:translateX(-800px) ;
+    }
+    to{
+        transform:translateX(0px);
+    }
+}
+@keyframes hodright{
+    from{
+        transform:translateX(800px);
+    }
+    to{
+        transform:translateX(0px);
+    }
+}
+.heads1, h2{
+    animation-name: hodleft;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+.heads2{
+    animation-name: hodright;
+    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+.bus{
+    position:relative;
+    display: flex;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.bus1{
+    position:relative;
+    left:-20%;
+    transition: left 1s;
+}
+.bus2{
+    position:relative;
+    right: -60%;
+    transition: right 1s;
+}
+.bus1.active{
+    left:30%;
+}
+.bus2.active{
+    right: -28%;
+}
+.van{
+
+}
+.grounds{
+    color:white;
+    background-color: rgb(8, 8, 110);
+    display: flex;
+    width: 85%;
+    margin:auto;
+    padding: 10px;
+    border: none ;
+    border-radius:20px;
+}
+.play{
+    display:grid;
+    width: 45% ;
+    margin: auto;
+}
+.play img{
+    width: 95%;
+    margin:auto;
+    border:none;
+    border-radius: 20px;
+    margin-bottom:50px;
+}
+.showground{
+    display: grid;
+    width: 40%;
+    margin: auto;
+}
+.adva{
+    margin-bottom: 20px;
+    margin-top:20px;
+    color:white;
+    border:none;
+    border-radius: 20px;
+    padding: 20px;
+    height: 230px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    font-weight: 600;
+    padding: 60px;
+    background-color:rgb(4, 4, 99);
+    color: moccasin;
+    gap:2%;
+}
+.footer a{
+    text-decoration:dashed;
+    color:tomato;
+}
+.comms{
+    width: 30%;
+}
+.footer .view{
+    width: 30%;
+}
+
+.discover{
+    width: 30%;
+    display: block;
+}
+.discover .list{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 80%;
+}
+.img{
+    width: 16px;
+    height: 16px;
+}
+.icon{
+    padding: 40px;
+}
+.icon:hover{
+    transform: scale(1.3);
+}
+.icons{
+    width:25%;
+    border-right: 3px solid red;
+    transition: transform 0.8s ;
+    padding: 10px;
+}
+.icons:hover{
+    transform: scale(1.3);
+}
+
+.wa{
+    position: sticky;
+    bottom: 10%;
+    right: 5%;
+    height: 50px;
+    width:50px;
+    float: right;
+}
+.wa img{
+    height: 100%;
+    width:100%;
+}

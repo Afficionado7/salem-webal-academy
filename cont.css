@@ -1,0 +1,237 @@
+.home{
+    position: sticky;
+    position: absolute;
+    width: 15%;
+    top: 1px;
+    border-radius: 50%;
+}
+.h1{
+    margin: auto;
+    align-items: center;
+}
+.cards{
+    display:flex;
+    justify-content: space-around;
+    width:90%;
+    margin: auto;
+}
+.card{
+    display: block;
+    width: 23%;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgb(0, 136, 248);
+}
+.card:hover{
+    box-shadow:  -3px 3px 25px 2px black;
+}
+.card img{
+    border-top-left-radius:80px ;
+    border-bottom-right-radius:80px ;
+    border-top-right-radius:12px ;
+    width: 100%;
+}
+
+.card p{
+    padding: 5px;
+    text-align: center;
+}
+.card h2{
+    width:75%;
+    background-color: blue;
+    margin: auto;
+    padding: 10px;
+    border-radius: 16px;
+}
+.card .point{
+    width:20%;
+    margin-left: 40%;
+    
+}
+.card .point:hover{
+    margin-left: 50%;
+}
+.testify{
+    width: 95%;
+    margin:auto;
+    background: linear-gradient(to right, rgb(81, 177, 255), rgb(2, 55, 134));
+    border-radius: 16px;
+
+}
+.testify img{
+    width:5%;
+    position: relative;
+}
+.testy{
+    width:90%;
+    margin: auto;
+    background-color: white;
+    padding:5px;
+    border-left: 8px solid rgb(6, 14, 134);
+}
+.testy h2{
+    text-align: center;
+}
+.testy p{
+    text-align: center;
+}
+
+.phil{
+    width: 85%;
+    margin: auto;
+    background:linear-gradient(to bottom, rgb(7, 97, 97), rgb(3, 252, 252)) ;
+    border-radius: 8px;;
+}
+.phil h2{
+    text-align: center;
+    padding:16px ;
+}
+.phil p{
+    text-align: center;
+    padding:6px ;
+    margin: auto;
+    border: 2px solid tomato;
+    width:80%;
+}
+.phil img{
+    width: 100%;
+}
+.philin{
+    width:94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.phila{
+    width:30%;
+    border-left: black solid 3px;
+    padding: 30px;
+}
+.cleaned{ 
+    display:flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 80vh;
+    margin: auto;
+    background: linear-gradient(to bottom, rgb(3, 255, 158), rgb(2, 203, 253));
+}
+.list{
+    width: 20%;
+    height:100%;
+    align-items: center;
+}
+.list ul{
+    list-style: none;
+}
+.list button{
+    padding:10px;
+    border: solid 2px rgb(1, 0, 68);
+    border-radius: 20px;
+}
+.show{
+    width: 70%;
+}
+.show img{
+    width: 80%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.there{
+    width: 90%;
+    display: block;
+    margin:auto;
+    background: linear-gradient(to right, rgb(3, 180, 250), rgb(0, 102, 255) );
+    padding:10px;
+    border-radius:20px;
+    height:100vh;
+}
+.here{
+    display:flex;
+    justify-content: space-between;
+    width:96%;
+    margin:auto;
+    gap:5%;
+    background-color: white;
+    height:30%;
+}
+.here .in {
+    text-align: center;
+    width:55%;
+    margin: auto;
+}
+.here .im{
+    width:70%;
+    margin:auto;
+    overflow-x: hidden;
+    height:100%;
+}
+.im img{
+    width:100%;
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    font-weight: 600;
+    padding: 60px;
+    background-color:rgb(4, 4, 99);
+    color: moccasin;
+    gap:2%;
+}
+.footer a{
+    text-decoration:dashed;
+    color:tomato;
+}
+.comms{
+    width: 30%;
+}
+.footer .view{
+    width: 30%;
+}
+
+.discover{
+    width: 30%;
+    display: block;
+}
+.discover .list{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 80%;
+}
+.img{
+    width: 16px;
+    height: 16px;
+}
+.icon{
+    padding: 40px;
+}
+.icon:hover{
+    transform: scale(1.3);
+}
+.icons{
+    width:25%;
+    border-right: 3px solid red;
+    transition: transform 0.8s ;
+    padding: 10px;
+}
+.icons:hover{
+    transform: scale(1.3);
+}
+
+.wa{
+    position: sticky;
+    bottom: 10%;
+    right: 5%;
+    height: 50px;
+    width:50px;
+    float: right;
+}
+.wa img{
+    height: 100%;
+    width:100%;
+}

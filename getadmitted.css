@@ -1,0 +1,193 @@
+<!--get admitted -- >
+body{
+    background-color:tomato ;
+}
+.home{
+    position: sticky;
+    position: absolute;
+    width: 15%;
+    top: 40px;
+    padding: 12px;
+}
+
+.headbox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20PX;
+    z-index: 1;
+    position:static ;
+}
+.head{
+    width: 40%;
+    margin: auto;
+    letter-spacing: 5px ;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    padding: 8px;
+    border: 1px rgb(25, 25, 184) solid;
+    border-radius: 30px ;
+    box-shadow: 10px 10px 10px rgb(27, 30, 216);
+    background: linear-gradient( to right, red, blue);
+    background-clip:text;
+    color: transparent;
+    z-index: 1;
+}
+
+.nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    line-height: 20px;
+    border: 1px red solid;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 7px;
+    padding:25px;
+    box-shadow: 4px 4px 8px red; 
+    position: sticky;
+    top:5px;
+    margin: auto;
+    z-index: 1;
+}
+.navi{
+    height:20px;
+    width: 20px;
+    background-color:white;
+    border: none;
+    border-radius: 30%;
+    transition: 0.7s;
+}
+.nav .nav-list{
+    display: flex;
+    justify-content: space-around;
+    width:75%;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
+.nav .nav-list .sec{
+   border-right: solid 3px white;
+   padding-left: 12px;
+   padding-right: 12px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+.nav .nav-list a{
+    color: white;
+    text-decoration: none;
+}
+.nav .nav-list a:hover{
+    color:orangered;
+    cursor:cell;
+}
+.form{
+    margin: auto;
+    width: 60%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(146, 20, 20);
+    border: none;
+    border-radius: 24px;
+    
+}
+.deco{
+    background-image: url('C:/Users/ARTHUR/OneDrive/Desktop/Projects/Salem Webal Academy/files/baby.jpeg');
+    width: 50%;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.AdmForm{
+    background-color:  rgb(177, 61, 61);
+    border: none;
+    border-radius: 24px;
+    margin:auto;
+    width: 42%;
+    height: 90%;
+}
+.q{
+    font-weight: 800;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.p{
+    margin-bottom: 7px;
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    line-height: 14px;
+    text-align: center;
+}
+.p:hover{
+    
+    box-shadow: 2px 2px 3px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    font-weight: 600;
+    padding: 60px;
+    background-color:rgb(4, 4, 99);
+    color: moccasin;
+    gap:2%;
+}
+.footer a{
+    text-decoration:dashed;
+    color:tomato;
+}
+.comms{
+    width: 30%;
+}
+.footer .view{
+    width: 30%;
+}
+
+.discover{
+    width: 30%;
+    display: block;
+}
+.discover .list{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 80%;
+}
+.img{
+    width: 16px;
+    height: 16px;
+}
+.icon{
+    padding: 40px;
+}
+.icon:hover{
+    transform: scale(1.3);
+}
+.icons{
+    width:25%;
+    border-right: 3px solid red;
+    transition: transform 0.8s ;
+    padding: 10px;
+}
+.icons:hover{
+    transform: scale(1.3);
+}
+
+.wa{
+    position: sticky;
+    bottom: 10%;
+    right: 5%;
+    height: 50px;
+    width:50px;
+    float: right;
+}
+.wa img{
+    height: 100%;
+    width:100%;
+}
