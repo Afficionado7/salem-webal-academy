@@ -1,15 +1,13 @@
-<!--get admitted -- >
 body{
-    background-color:tomato ;
+    background: linear-gradient( to bottom, white, red, blue);
 }
 .home{
     position: sticky;
     position: absolute;
     width: 15%;
-    top: 40px;
+    top: 1px;
     padding: 12px;
 }
-
 .headbox{
     display: flex;
     justify-content: center;
@@ -24,7 +22,7 @@ body{
     letter-spacing: 5px ;
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;
+    font-size: 50px;
     padding: 8px;
     border: 1px rgb(25, 25, 184) solid;
     border-radius: 30px ;
@@ -36,6 +34,7 @@ body{
 }
 
 .nav{
+    margin: auto;
     width: 90%;
     display: flex;
     justify-content: space-around;
@@ -49,7 +48,6 @@ body{
     box-shadow: 4px 4px 8px red; 
     position: sticky;
     top:5px;
-    margin: auto;
     z-index: 1;
 }
 .navi{
@@ -83,49 +81,56 @@ body{
     color:orangered;
     cursor:cell;
 }
-.form{
+.sifa{
+    margin-top: 200px;
+    display:grid;
     margin: auto;
-    width: 60%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    background-color:rgb(146, 20, 20);
-    border: none;
-    border-radius: 24px;
-    
+    width: 80%;
 }
-.deco{
-    background-image: url('C:/Users/ARTHUR/OneDrive/Desktop/Projects/Salem Webal Academy/files/baby.jpeg');
-    width: 50%;
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
-}
-.AdmForm{
-    background-color:  rgb(177, 61, 61);
-    border: none;
-    border-radius: 24px;
-    margin:auto;
-    width: 42%;
-    height: 90%;
-}
-.q{
-    font-weight: 800;
-    display: block;
-    margin-bottom: 5px;
-    text-align: center;
-}
-.p{
-    margin-bottom: 7px;
-    width: 100%;
-    padding: 6px;
-    border: none;
+.sifa1{
+    width:90%;
     border-radius: 20px;
-    line-height: 14px;
-    text-align: center;
+    margin: auto;
 }
-.p:hover{
+.sifa2{
+    width: 70%;
+    transform: translateY(-70px);
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    padding:30px;
+    text-align: center;
+    border-radius: 20px;
     
-    box-shadow: 2px 2px 3px;
+}
+.sifa2 :hover{
+
+}
+.sifa2 h1{
+    letter-spacing: 7px;
+    font-weight: 900;
+    color:rgb(248, 6, 6) ;
+    font-size: 40px;
+}
+.sifa2 p{
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: rgba(4, 0, 255, 0.911);
+    font-size: 22px;
+}
+.sifa2 button{
+    background : linear-gradient( to bottom, blue, red);
+    color: moccasin;
+    padding: 8px;
+    border-radius : 20px;
+    margin: auto;
+    font-weight: 500;
+    font-size: 35px;
+    width:30%;
+    transition: all 0.4s ;
+}
+.sifa2 button:hover{
+    background : linear-gradient( to bottom, red, blue);
+    color: gold;
 }
 .footer{
     display: flex;

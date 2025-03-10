@@ -1,15 +1,10 @@
-<!--get admitted -- >
-body{
-    background-color:tomato ;
-}
 .home{
     position: sticky;
     position: absolute;
     width: 15%;
-    top: 40px;
-    padding: 12px;
+    top: 1px;
+    padding:12px;
 }
-
 .headbox{
     display: flex;
     justify-content: center;
@@ -24,7 +19,7 @@ body{
     letter-spacing: 5px ;
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;
+    font-size: 50px;
     padding: 8px;
     border: 1px rgb(25, 25, 184) solid;
     border-radius: 30px ;
@@ -36,6 +31,7 @@ body{
 }
 
 .nav{
+    margin: auto;
     width: 90%;
     display: flex;
     justify-content: space-around;
@@ -49,7 +45,6 @@ body{
     box-shadow: 4px 4px 8px red; 
     position: sticky;
     top:5px;
-    margin: auto;
     z-index: 1;
 }
 .navi{
@@ -83,49 +78,37 @@ body{
     color:orangered;
     cursor:cell;
 }
-.form{
-    margin: auto;
-    width: 60%;
-    height: 90%;
+
+.temp1, .temp2, .temp3{
     display: flex;
-    justify-content: center;
-    background-color:rgb(146, 20, 20);
-    border: none;
-    border-radius: 24px;
-    
+    width:85%;
+    height: 80vh;
+    margin: auto;
+    background: linear-gradient(to bottom, blue, red);
+    border-radius: 12px;
 }
-.deco{
-    background-image: url('C:/Users/ARTHUR/OneDrive/Desktop/Projects/Salem Webal Academy/files/baby.jpeg');
-    width: 50%;
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
+.temp1-sec1, .temp3-sec1{
+    position:relative;
+    left:3%;
+    width: 45%;
+    border-radius: 12px;
 }
-.AdmForm{
-    background-color:  rgb(177, 61, 61);
-    border: none;
-    border-radius: 24px;
+.temp2-sec2{
+    position:relative;
+    right:3%;
+    width: 45%;
+    border-radius: 12px;
+}
+.temp1-sec1 img, .temp2-sec2 img, .temp3-sec1 img{
+    height:100%;
+    width:100%;
+}
+.temp1-sec2, .temp2-sec1, .temp3-sec2{
+    background-color: moccasin ;
+    width:40%;
     margin:auto;
-    width: 42%;
-    height: 90%;
-}
-.q{
-    font-weight: 800;
-    display: block;
-    margin-bottom: 5px;
-    text-align: center;
-}
-.p{
-    margin-bottom: 7px;
-    width: 100%;
-    padding: 6px;
-    border: none;
-    border-radius: 20px;
-    line-height: 14px;
-    text-align: center;
-}
-.p:hover{
-    
-    box-shadow: 2px 2px 3px;
+    border-radius: 12px;
+    padding: 1%;
 }
 .footer{
     display: flex;
